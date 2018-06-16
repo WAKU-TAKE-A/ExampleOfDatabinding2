@@ -5,12 +5,9 @@ The library of C# is used.
 
 ## File
 
-* `example_databinding_main.py`
-  * Run this file.
-* `example_databinding_view.xaml`
-  * View of MVVM.
-* `example_databinding_viewmodel.py`
-  * ViewModel of MVVM.
+* `MyUtil_Ipy` folder.
+  * There are IronPython script files.
+  * Run this `example_databinding_main.py` file.
 * `MyUtil.sln`
   * A class that implements INotifyPropertyChanged and ICommand. 
   * `MyUtil` is a related folder.

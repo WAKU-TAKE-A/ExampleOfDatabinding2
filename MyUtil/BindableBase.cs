@@ -16,7 +16,7 @@ namespace MyUtil
     /// </summary>
     ///
      
-    public class ViewModelBase : INotifyPropertyChanged
+    public class BindableBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
