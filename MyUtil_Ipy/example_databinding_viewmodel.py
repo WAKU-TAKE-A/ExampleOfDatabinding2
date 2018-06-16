@@ -6,10 +6,10 @@ ViewModel.
 
 import clr
 clr.AddReferenceToFile("../x64/Release/MyUtil.dll")
-from MyUtil import ViewModelBase
+from MyUtil import BindableBase
 from MyUtil import DelegateCommand
 
-class Example_databinding_viewmodel(ViewModelBase):
+class Example_databinding_viewmodel(BindableBase):
 
     def __init__(self):
         # Set command.
