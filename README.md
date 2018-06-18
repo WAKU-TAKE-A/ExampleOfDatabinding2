@@ -1,4 +1,4 @@
-# Example of Databinding Part 2
+# Example of Databinding Part 2 (for 64bit)
 
 Example of data binding in Ironpython script.  
 The library of C# is used.
