@@ -16,7 +16,7 @@ class Example_databinding_viewmodel(BindableBase):
         self.Run_Btn_One_Command = DelegateCommand(self.Run_Btn_One)
 
     # Txt_One property.
-    _Txt_One = "One"
+    _Txt_One = 1.0
     @property
     def Txt_One(self):
         print("Txt_One getter")
@@ -30,7 +30,7 @@ class Example_databinding_viewmodel(BindableBase):
         self.OnPropertyChanged("")
 
     # Txt_Two property.
-    _Txt_Two = "two"
+    _Txt_Two = 2.0
     @property
     def Txt_Two(self):
         print("Txt_Two getter")
