@@ -11,7 +11,8 @@ namespace MyUtil
 {
     /// <summary>
     /// A class that implements ICommand. 
-    /// <para>https://inter.work/csharp_delegate_command/</para>
+    /// <para>* https://inter.work/csharp_delegate_command/</para>
+    /// <para>* Refer to PresentationCore.</para>
     /// </summary>
     public class DelegateCommand : ICommand
     {
